@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <title>Know More About AUTISM</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}">
+<center><img src="{{ url_for('static',filename='img2.png') }}" width="1000" height="150" alt="" /></center>
+</head>
+  <body  bgcolor="tomato">
+   <div class="container">
+  <form id="contact" action="/placefind" method="post" role="form">
+    <center><h1><bold>Know More About AUTISM </bold></h1></center>
+    
+
+    
+      <center><h4>select option below to find the nearest hospital</h4></center>
+      <!-- <input placeholder="if Yes means 0 No means 1" name = "q1" type="text" tabindex="1" required autofocus> -->
+      <center><h5>Autism, or autism spectrum disorder (ASD), refers to a broad range of conditions characterized by challenges with social skills, repetitive behaviors, speech and nonverbal communication. According to the Centers for Disease Control, autism affects an estimated 1 in 54 children in the United States today.
+
+We know that there is not one autism but many subtypes, most influenced by a combination of genetic and environmental factors. Because autism is a spectrum disorder, each person with autism has a distinct set of strengths and challenges. The ways in which people with autism learn, think and problem-solve can range from highly skilled to severely challenged. Some people with ASD may require significant support in their daily lives, while others may need less support and, in some cases, live entirely independently.
+
+Several factors may influence the development of autism, and it is often accompanied by sensory sensitivities and medical issues such as gastrointestinal (GI) disorders, seizures or sleep disorders, as well as mental health challenges such as anxiety, depression and attention issues.
+
+Signs of autism usually appear by age 2 or 3. Some associated development delays can appear even earlier, and often, it can be diagnosed as early as 18 months. Research shows that early intervention leads to positive outcomes later in life for people with autism.
+
+Empty heading
+* In 2013, the American Psychiatric Association merged four distinct autism diagnoses into one umbrella diagnosis of autism spectrum disorder (ASD). They included autistic disorder, childhood disintegrative disorder, pervasive developmental disorder-not otherwise specified (PDD-NOS) and Asperger syndrome. </h5>
+    </center>
+    
+
+<br> <br> <br>
+    
+
+    <fieldset>
+      <center>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </center>
+    </fieldset>
+
+  </form>
+</div>
+
+<style>
+    select {
+        width: 200px;
+        height: 30px;
+        margin: 10px;
+    }
+    select:focus {
+        min-width: 200px;
+        width: auto;
+    }    
+</style>
+  </body>
+</html>
